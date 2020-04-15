@@ -1,8 +1,7 @@
 # depslib dependency file v1.0
-1586955577 source:d:\game\myreposit\oopkursova\my2dgame\main.cpp
+1586967945 source:d:\game\myreposit\oopkursova\my2dgame\main.cpp
 	<iostream>
-	<SDL2/SDL.h>
-	<Game.h>
+	"Engine.h"
 
 1583890776 d:\libsdl2\sdl2-2.0.12\include\sdl.h
 	"SDL_main.h"
@@ -1726,6 +1725,66 @@
 
 1583890678 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_test_images.h
 	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1586972021 d:\game\myreposit\oopkursova\my2dgame\src\core\engine.h
+	<SDL2/SDL.h>
+	<iostream>
+	<SDL2/SDL_image.h>
+
+1586968329 source:d:\game\myreposit\oopkursova\my2dgame\src\core\engine.cpp
+	"Engine.h"
+
+1561870368 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2_image-2.0.5\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1583890677 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_metal.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1561870368 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2-2.0.12\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 

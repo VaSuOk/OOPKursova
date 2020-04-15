@@ -1,21 +1,21 @@
 #include<iostream>
-#include<SDL2/SDL.h>
-#include <Game.h>
+#include "Engine.h"
+#include <SDL_image.h>
 using namespace std;
 
 const int WIDTH = 800, HEIGHT = 600;
-Game *game = nullptr;
+
 
 int main(int argc, char* argv[])
 {
-    game = new Game();
+    Engine::GetInstance()->Init();
 
-    game->Init("BirchEngine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WIDTH, HEIGHT, false);
-    while(game->Running()){
-        game->HandlEvents();
-        game->Update();
-        game->Render();
+    while(Engine::GetInstance()->IsRunning()){
+        Engine::GetInstance()->Events();
+        Engine::GetInstance()->Update();
+        Engine::GetInstance()->Render();
     }
-    game->Clean();
+    Engine::GetInstance()->Clean();
+
     return 0;
 }
