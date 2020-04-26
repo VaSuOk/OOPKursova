@@ -1,17 +1,18 @@
 #ifndef ENGINE_H
 #define ENGINE_H
 #include<SDL2/SDL.h>
-#include<iostream>
-
 #include <SDL2/SDL_image.h>
-
+#include<iostream>
 #define SCREEN_WIDTH 960
 #define SCREEN_HEIGHT 640
 
 class Engine
 {
 public:
-        static Engine* GetInstance();
+        static Engine* GetInstance(){
+            return s_Instance = (s_Instance != nullptr)? s_Instance : new Engine();
+        }
+        SDL_Renderer * GetRenderer(){return m_Renderer;}
 
         bool Init();
         bool Clean();

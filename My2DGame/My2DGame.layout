@@ -2,19 +2,129 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="src\Core\Engine.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Characters\Player.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="80" topLine="0" />
+			<Cursor1 position="451" topLine="3" />
 		</Cursor>
 	</File>
-	<File name="src\Core\Engine.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Core\Engine.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="86" topLine="3" />
+			<Cursor1 position="1221" topLine="18" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="src\Physics\RigetBody.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="166" topLine="0" />
+			<Cursor1 position="194" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="src\Core\Engine.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="321" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src\Physics\Transform.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="313" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Graphics\TextureManager.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="779" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="src\Physics\Vector2D.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="578" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Graphics\TextureManager.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="370" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="src\Inputs\Input.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="78" topLine="7" />
+		</Cursor>
+	</File>
+	<File name="src\Timer\Timer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="34" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Inputs\Input.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="127" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Map\GameMap.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="502" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="src\Vendor\tinyxml\tinystr.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="src\Map\MapParser.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="24" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Vendor\tinyxml\tinyxml.h" open="1" top="1" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="908" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="src\Map\MapParser.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="295" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src\Map\TileLayer.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="157" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Map\TileLayer.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="744" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="src\Vendor\tinyxml\xmltest.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6719" topLine="253" />
+		</Cursor>
+	</File>
+	<File name="src\Object\GameObject.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="624" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="345" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Animation\Animation.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="359" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Animation\Animation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="237" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Characters\Character.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="169" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Characters\Player.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="583" topLine="26" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1586967945 source:d:\game\myreposit\oopkursova\my2dgame\main.cpp
+1587830894 source:d:\game\myreposit\oopkursova\my2dgame\main.cpp
 	<iostream>
 	"Engine.h"
+	"Timer.h"
 
 1583890776 d:\libsdl2\sdl2-2.0.12\include\sdl.h
 	"SDL_main.h"
@@ -1728,13 +1729,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1586972021 d:\game\myreposit\oopkursova\my2dgame\src\core\engine.h
+1587058790 d:\game\myreposit\oopkursova\my2dgame\src\core\engine.h
 	<SDL2/SDL.h>
-	<iostream>
 	<SDL2/SDL_image.h>
+	<iostream>
 
-1586968329 source:d:\game\myreposit\oopkursova\my2dgame\src\core\engine.cpp
+1587831615 source:d:\game\myreposit\oopkursova\my2dgame\src\core\engine.cpp
 	"Engine.h"
+	"TextureManager.h"
+	"Input.h"
+	"Player.h"
+	"Timer.h"
 
 1561870368 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2_image-2.0.5\i686-w64-mingw32\include\sdl2\sdl_image.h
 	"SDL.h"
@@ -1787,4 +1792,136 @@
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
+
+1561870368 d:\game\myreposit\oopkursova\my2dgame\lib\sdl2\i686-w64-mingw32\include\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1587645744 source:d:\game\myreposit\oopkursova\my2dgame\src\graphics\texturemanager.cpp
+	"TextureManager.h"
+	"Engine.h"
+
+1587301459 d:\game\myreposit\oopkursova\my2dgame\src\graphics\texturemanager.h
+	<string>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<map>
+
+1587303653 d:\game\myreposit\oopkursova\my2dgame\src\physics\vector2d.h
+	<iostream>
+
+1587656661 d:\game\myreposit\oopkursova\my2dgame\src\physics\transform.h
+	"Vector2D.h"
+
+1587655619 d:\game\myreposit\oopkursova\my2dgame\src\characters\player.h
+	"Character.h"
+	"Animation.h"
+	"RigetBody.h"
+
+1587639072 d:\game\myreposit\oopkursova\my2dgame\src\characters\character.h
+	"GameObject.h"
+	<string>
+
+1587639718 d:\game\myreposit\oopkursova\my2dgame\src\object\gameobject.h
+	<SDL2/SDL.h>
+	"IObject.h"
+	"Transform.h"
+
+1587304724 d:\game\myreposit\oopkursova\my2dgame\src\object\iobject.h
+
+1587830894 source:d:\game\myreposit\oopkursova\my2dgame\src\characters\player.cpp
+	"Player.h"
+	"TextureManager.h"
+	<SDL2/SDL.h>
+	"Input.h"
+
+1587651877 source:d:\game\myreposit\oopkursova\my2dgame\src\animation\animation.cpp
+	"Animation.h"
+	"TextureManager.h"
+
+1587651797 d:\game\myreposit\oopkursova\my2dgame\src\animation\animation.h
+	<string>
+	<SDL2/SDL.h>
+
+1587663471 d:\game\myreposit\oopkursova\my2dgame\src\physics\rigetbody.h
+	"Vector2D.h"
+
+1587658420 d:\game\myreposit\oopkursova\my2dgame\src\inputs\input.h
+	<SDL2/SDL.h>
+
+1587658652 source:d:\game\myreposit\oopkursova\my2dgame\src\inputs\input.cpp
+	"Input.h"
+	"Engine.h"
+
+1587830216 source:d:\game\myreposit\oopkursova\my2dgame\src\timer\timer.cpp
+	"Timer.h"
+	<SDL2/SDL.h>
+
+1587833765 d:\game\myreposit\oopkursova\my2dgame\src\timer\timer.h
+
+1587917147 source:d:\game\myreposit\oopkursova\my2dgame\src\map\tilelayer.cpp
+	"TileLayer.h"
+
+1587840108 d:\game\myreposit\oopkursova\my2dgame\src\map\tilelayer.h
+	"Layer.h"
+	<string>
+	<vector>
+
+1587833765 d:\game\myreposit\oopkursova\my2dgame\src\map\layer.h
+
+1376507762 source:d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1376507762 d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1376507762 source:d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1376507762 d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1376507762 source:d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1376507762 source:d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1305426297 source:d:\game\myreposit\oopkursova\my2dgame\src\vendor\tinyxml\xmltest.cpp
+	<iostream>
+	<sstream>
+	<stdio.h>
+	<crtdbg.h>
+	"tinyxml.h"
+
+1587919047 source:d:\game\myreposit\oopkursova\my2dgame\src\map\mapparser.cpp
+	"MapParser.h"
+
+1587917823 d:\game\myreposit\oopkursova\my2dgame\src\map\mapparser.h
+	<map>
+	<string>
+	"GameMap.h"
+	"TileLayer.h"
+	"tinyxml.h"
+
+1587918566 d:\game\myreposit\oopkursova\my2dgame\src\map\gamemap.h
+	<vector>
+	"Layer.h"
 

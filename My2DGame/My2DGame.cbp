@@ -16,6 +16,15 @@
 					<Add directory="include" />
 					<Add directory="src/Engine/Core" />
 					<Add directory="src/Core" />
+					<Add directory="src/Graphics" />
+					<Add directory="src/Physics" />
+					<Add directory="src/Object" />
+					<Add directory="src/Characters" />
+					<Add directory="src/Animation" />
+					<Add directory="src/Inputs" />
+					<Add directory="src/Timer" />
+					<Add directory="src/Map" />
+					<Add directory="src/Vendor/tinyxml" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -28,6 +37,14 @@
 					<Add directory="include" />
 					<Add directory="src/Engine/Core" />
 					<Add directory="src/Core" />
+					<Add directory="src/Graphics" />
+					<Add directory="src/Physics" />
+					<Add directory="src/Object" />
+					<Add directory="src/Characters" />
+					<Add directory="src/Animation" />
+					<Add directory="src/Inputs" />
+					<Add directory="src/Timer" />
+					<Add directory="src/Map" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -45,8 +62,37 @@
 			<Add directory="lib/SDL2-2.0.12/i686-w64-mingw32/lib" />
 		</Linker>
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Animation/Animation.cpp" />
+		<Unit filename="src/Animation/Animation.h" />
+		<Unit filename="src/Characters/Character.h" />
+		<Unit filename="src/Characters/Player.cpp" />
+		<Unit filename="src/Characters/Player.h" />
 		<Unit filename="src/Core/Engine.cpp" />
 		<Unit filename="src/Core/Engine.h" />
+		<Unit filename="src/Graphics/TextureManager.cpp" />
+		<Unit filename="src/Graphics/TextureManager.h" />
+		<Unit filename="src/Inputs/Input.cpp" />
+		<Unit filename="src/Inputs/Input.h" />
+		<Unit filename="src/Map/GameMap.h" />
+		<Unit filename="src/Map/Layer.h" />
+		<Unit filename="src/Map/MapParser.cpp" />
+		<Unit filename="src/Map/MapParser.h" />
+		<Unit filename="src/Map/TileLayer.cpp" />
+		<Unit filename="src/Map/TileLayer.h" />
+		<Unit filename="src/Object/GameObject.h" />
+		<Unit filename="src/Object/IObject.h" />
+		<Unit filename="src/Physics/RigetBody.h" />
+		<Unit filename="src/Physics/Transform.h" />
+		<Unit filename="src/Physics/Vector2D.h" />
+		<Unit filename="src/Timer/Timer.cpp" />
+		<Unit filename="src/Timer/Timer.h" />
+		<Unit filename="src/Vendor/tinyxml/tinystr.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinystr.h" />
+		<Unit filename="src/Vendor/tinyxml/tinyxml.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinyxml.h" />
+		<Unit filename="src/Vendor/tinyxml/tinyxmlerror.cpp" />
+		<Unit filename="src/Vendor/tinyxml/tinyxmlparser.cpp" />
+		<Unit filename="src/Vendor/tinyxml/xmltest.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
